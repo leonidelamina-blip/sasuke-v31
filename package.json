@@ -1,0 +1,20 @@
+{
+  "name": "sasuke-v31",
+  "version": "1.0.0",
+  "description": "SASUKE V31 — GOD EDITION (bot WhatsApp modular)",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test tests/*.test.js",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "pino": "^9.0.0",
+    "sharp": "^0.33.5"
+  }
+}
